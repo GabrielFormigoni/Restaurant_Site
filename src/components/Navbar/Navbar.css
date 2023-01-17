@@ -102,11 +102,6 @@
     .app__navbar-logo img {
         width: 210px;
     }
-
-    .app__navbar-smallScreen {
-        display: flex;
-
-    }
 }
 
 @media screen and (max-width: 1150px) {
