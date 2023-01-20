@@ -1,0 +1,94 @@
+.app__chef {
+    display: flex;
+    justify-content: center;
+}
+
+.app__chef-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.app__chef-img img {
+    width: 510px;
+}
+
+.app__chef-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app__chef-content_text-quote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.app__chef-content_text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.app__chef-content_text-quote img {
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.app__chef-content_sign {
+    margin-top: 3rem;
+}
+
+.app__chef-content_sign h3 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.app__chef-content_sign img {
+    margin-top: 2.5rem;
+    width: 250px;
+}
+
+@media screen and (max-width: 950px) {
+    .app__chef {
+        flex-direction: column;
+    }
+
+    .app__chef-img {
+        margin: 0 0 4rem 0;
+    }
+
+    .app__chef-img img {
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__chef-img img {
+        width: 280px;
+    }
+
+    .app__chef-content {
+        padding: 0 1.5rem;
+    }
+
+    .app__chef-content h1 {
+        font-size: 38px;
+    }
+
+    .app__chef-content_text {
+        margin-top: 4rem;
+    }
+
+    .app__chef-content_text p {
+        font-size: 10px;
+        line-height: 22px;
+    }
+}
